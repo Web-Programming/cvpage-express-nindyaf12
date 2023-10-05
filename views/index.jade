@@ -1,0 +1,101 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Curriculum Vitae
+    link(href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic")
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/style.css")
+
+  body
+    #main_container
+      // HEADER
+      #header
+        // LOGOTYPE/NAME
+        .header_logotype_container
+          h1.logotype_name
+            | Nindya 
+            span.purple Filza 
+          h2.logotype_occupation Maharani
+      // LEFT COL
+      #left_col
+        .profile_frame
+          .profile_picture
+          img(src='images/nina.jpg' alt='profile picture')
+          
+        
+        .hello_content
+          h2 Skills
+        ul
+              li English
+              li Microsoft Office
+              li Teamwork
+              li Creativity
+
+        .contact_details_content
+          h2 Contact details
+          p.purple Phone:
+          p +62 821 7855 5526
+          p.purple Email:
+          p nindyafilzam12@mhs.mdp.ac.id
+          p.purple Adress:
+          p Jl. Sersan kko badarudin No.1238
+          p Palembang, Indonesia
+          p 30116
+        a.send_message_button(href='mailto:nindyafilzam12@mhs.mdp.ac.id')
+          span.cut1
+          span.cut2
+          span.content
+            | Send me a message 
+            span.fontawesome-double-angle-right
+
+      // PROFILE CONTENT
+      #content_container
+        .block
+          h1 Profile
+          blockquote.profile_quote
+            p
+              | "A lesson without pain is meaningless. For you cannot gain something without sacrificing something else in return."
+            p Edward Elric.
+            span.entypo-quote
+        .block
+          h2 About me
+          p
+            | Hello! My name is Nindya FIlza Maharani, you can call me nindya or nina for short. Im a college student at Universitas Multi Data Palembamg in Indonesia. Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to listen people stories and backgrounds and their different experiences around the world.
+        .horizontal_line
+          .line_left
+          .left_circle
+          .central_circle
+          .right_circle
+          .line_right
+        .block
+          h2 Educations
+          .philosophy_content
+            p
+              | I Went to School at :
+            ul
+              li Universitas Multi Data Palembang (2021 - Now)
+              li SMA Negeri 5 Palembang (2018 - 2021)
+              li SMP Negeri 8 Palembang (2015 - 2018)
+              li SD Kartika II-I (2009 - 2015)
+
+            .clear
+        .horizontal_line
+          .line_left
+          .left_circle
+          .central_circle
+          .right_circle
+          .line_right
+        .last.block
+          h2 Interests & Hobbies
+          ul
+            li Gaming
+            li Technology
+            li Music
+            li Photography
+            li Manga and Anime
+      .clear
+      // FOOTER
+      #footer
+        p.footer_name Copyright © 2023 Nindya Filza Maharani
